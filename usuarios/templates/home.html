@@ -1,0 +1,375 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- index.html  03:18:33 GMT -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>ChangeIt!</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/img/logo_change/favicon.png' %}" />
+  <!-- google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&amp;display=swap" rel="stylesheet">
+  <!-- css styles -->
+  <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/icofont.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/odometer-theme-default.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/app.css' %}" />
+
+</head>
+
+<body>
+  <!-- Start Pre-loader 
+  <div class="pre-loader-wrap">
+    <div class="pre-loader triangle">
+      <svg viewBox="0 0 86 80">
+        <polygon points="43 8 79 72 7 72"></polygon>
+      </svg>
+      <span>Loading...</span>
+    </div>
+  </div>
+   End Pre-loader -->
+
+  <!-- Start header section -->
+  <section class="header-section home-one">
+    <header class="header-area">
+      <div class="dope-nav-container breakpoint-off">
+        <div class="container">
+          <div class="row">
+            <!-- Main Menu -->
+            <nav class="dope-navbar justify-content-between" id="dopeNav">
+
+              <!-- Logo -->
+              <a class="nav-brand" href="#"><img src="{% static 'assets/img/logo_change/light-blue-logo.PNG' %}" alt="" ></a>
+
+              <!-- Navbar Toggler -->
+              <div class="dope-navbar-toggler">
+                <span class="navbarToggler"><span></span><span></span><span></span></span>
+              </div>
+
+              <!-- Menu -->
+              <div class="dope-menu">
+                <!-- close btn -->
+                <div class="dopecloseIcon">
+                  <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                </div>
+
+                <!-- Nav Start -->
+                <div class="dopenav">
+                  <ul id="nav">
+
+                  </ul>
+
+                </div>
+                <!-- Nav End -->
+                <a href="#" class="menu-btn">Login</a>
+              </div>
+            </nav>
+            <div class="overlay"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row section-gap header-content">
+        <div class="col-lg-7 col-md-8 header-text-wrap">
+          <h1>A maior rede
+            de trocas online
+            do Brasil.</h1>
+          <p>Cadastre-e e encontre infinitas possibilidades <br>
+            de trocas entre os mais variados produtos.</p>
+          <a class="btn-style purple-btn" href="#">Cadastre-se</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End header section -->
+
+  <!-- Start why-choose section -->
+  <section class="why-choose-section section-gap">
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-between">
+        <img class="pattern-right" src="assets/img/why-pattern.png" alt=>
+        <div class="col-lg-6 col-md-12">
+          <div class="row">
+            <div class="col-md-6 col-6">
+              <div class="single-why text-center mb-30">
+                <img src="{% static 'assets/img/w1.png' %}" alt=>
+                <h4>Cadastre seu Produto</h4>
+              </div>
+              <div class="single-why text-center">
+                <img src="{% static 'assets/img/w4.png' %}" alt=>
+                <h4>Solicite a Change</h4>
+              </div>
+            </div>
+            <div class="col-md-6 col-6">
+              <div class="single-why text-center mb-30 mt-50">
+                <img src="{% static 'assets/img/w3.png' %}" alt=>
+                
+                <h4>Procure o que deseja</h4>
+              </div>
+
+              <div class="single-why text-center">
+                <img src="{% static 'assets/img/w1.png' %}" alt=>
+                <h4>Conclua o processo</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="why-left-wrap">
+            <h1>Processo Simples, <br> Rápido e Seguro.</h1>
+            <h5>São milhares de pessoas e produtos, das mais diversas categorias para se conectar e efetuar suas changes.
+            </h5>
+            <p>
+              Cadastre seus produtos e solicite suas changes, todas as etapas do processo são informadas por Email e você terá acesso as
+              dados e estatíscas de acesso aos seus produtos.
+            </p>
+            <a class="btn-style blue-btn" href="#">Cadastre-se</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End why-choose section -->
+  <!-- Start portfolio section -->
+  <section class="portfolio-section section-gap-top">
+    <div class="container">
+      <div class="row d-flex justify-content-center section-title">
+        <div class="col-lg-6 col-md-8 col-12">
+          <h1>Categorização de todos os produtos</h1>
+          <p>Facilitando sua experiencia na hora de encontrar a chenge perfeita.</p>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-carusel-wrap  owl-carousel owl-theme">
+      <div class="single-portfolio">
+        <div class="thumb">
+          <img src="{% static 'assets/img/ba_eletronicos.jpg' %}" alt=>
+        </div>
+        <div class="details">
+          <a class="btn-style" href="service-details.html"><i class="icofont-arrow-right"></i></a>
+          <a href="service-details.html">
+            <h4>Eletronicos</h4>
+          </a>
+          <p>Celulares, Notebooks, Ipads, Smartwatches, etc...</p>
+        </div>
+      </div>
+      <div class="single-portfolio">
+        <div class="thumb">
+          <img src="{% static 'assets/img/ba_games.jpg' %}" alt=>
+        </div>
+        <div class="details">
+          <a class="btn-style" href="service-details.html"><i class="icofont-arrow-right"></i></a>
+          <a href="service-details.html">
+            <h4>Games</h4>
+          </a>
+          <p>Consoles, jogos, acessórios, etc...</p>
+        </div>
+      </div>
+      <div class="single-portfolio">
+        <div class="thumb">
+          <img src="{% static 'assets/img/ba_foto.jpg' %}" alt=>
+        </div>
+        <div class="details">
+          <a class="btn-style" href="service-details.html"><i class="icofont-arrow-right"></i></a>
+          <a href="service-details.html">
+            <h4>Cameras</h4>
+          </a>
+          <p>Cameras, lentes, acessórios fotograficos, etc...</p>
+        </div>
+      </div>
+      <div class="single-portfolio">
+        <div class="thumb">
+          <img src="{% static 'assets/img/ba_vestuario.jpg' %}" alt=>
+        </div>
+        <div class="details">
+          <a class="btn-style" href="service-details.html"><i class="icofont-arrow-right"></i></a>
+          <a href="service-details.html">
+            <h4>Vestuario</h4>
+          </a>
+          <p>Para todas as estações do ano.</p>
+        </div>
+      </div>
+      <div class="single-portfolio">
+        <div class="thumb">
+          <img src="{% static 'assets/img/ba_acessorios.jpg' %}" alt=>
+        </div>
+        <div class="details">
+          <a class="btn-style" href="service-details.html"><i class="icofont-arrow-right"></i></a>
+          <a href="service-details.html">
+            <h4>Acessórios</h4>
+          </a>
+          <p>Chapéus, óculos, relógios, etc...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End portfolio section -->
+  <!-- Start blog section -->
+  <section class="blog-section section-gap-top">
+    <div class="container">
+      <div class="row d-flex justify-content-center section-title">
+        <div class="col-lg-6 col-md-8 col-12">
+          <h1>Pessoas do Brasil todo<br/>
+          Ou o mais próximo de você.</h1>
+          <p></p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="single-blog">
+            <div class="feature-thumb">
+              <img src="{% static 'assets/img/produtos/notebook.jpg' %}" alt=>
+            </div>
+            <div class="details">
+              <a href="single.html">
+                <h4>Notebook Samsung.</h4>
+              </a>
+              <div class="meta d-flex align-items-center justify-content-between">
+                <div class="author-details d-flex align-items-center">
+                  <div class="author-thumb">
+                    <img src="{% static 'assets/img/author1.png' %}" alt=>
+                  </div>
+                  <div class="meta-text">
+                    <h5>Fernanda Santos</h5>
+                    <span>03.08.2019</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-wrap"><i class="icofont-exchange"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="single-blog">
+            <div class="feature-thumb">
+              <img src="{% static 'assets/img/produtos/celular.jpg' %}" alt=>
+            </div>
+            <div class="details">
+              <a href="single.html">
+                <h4>Iphone 10.</h4>
+              </a>
+              <div class="meta d-flex align-items-center justify-content-between">
+                <div class="author-details d-flex align-items-center">
+                  <div class="author-thumb">
+                    <img src="{% static 'assets/img/author2.png' %}" alt=>
+                  </div>
+                  <div class="meta-text">
+                    <h5>Bruno Daniel</h5>
+                    <span>21.08.2019</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-wrap"><i class="icofont-exchange"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="single-blog">
+            <div class="feature-thumb">
+              <img src="{% static 'assets/img/produtos/camera.jpg' %}" alt=>
+            </div>
+            <div class="details">
+              <a href="single.html">
+                <h4>Camera Kodak.</h4>
+              </a>
+              <div class="meta d-flex align-items-center justify-content-between">
+                <div class="author-details d-flex align-items-center">
+                  <div class="author-thumb">
+                    <img src="{% static 'assets/img/author2.png' %}" alt=>
+                  </div>
+                  <div class="meta-text">
+                    <h5>Jader Moraes</h5>
+                    <span>23.08.2019</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-wrap"><i class="icofont-exchange"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End blog section -->
+  <br/>
+  <!-- Start footer section -->
+  <footer class="footer-section section-gap-top home-one">
+    <div class="container">
+      <div class="row footer-top d-flex justify-content-between">
+        <div class="col-lg-4 col-md-6 col-6 footer-widgets">
+          <img class="footer-logo" src="assets/img/logo.svg" alt=>
+          <p>Quer saber mais sobre a ChangeIt!, então siga nossas redes sociais.</p>
+          <ul class="social-lists">
+            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6 footer-widgets">
+          <div class="single-widget">
+            <h4 class="wiget-title">Sobre nós</h4>
+            <ul>
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Parceiros</a></li>
+              <li><a href="#">Missão</a></li>
+              <li><a href="#">Visão</a></li>
+              <li><a href="#">Vores</a></li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6 footer-widgets">
+          <div class="single-widget">
+            <h4 class="wiget-title">Serviços</h4>
+            <ul>
+              <li><a href="#">Trocas</a></li>
+              <li><a href="#">Politica de Privacidade</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6 footer-widgets">
+          <div class="single-widget">
+            <h4 class="wiget-title">Compania</h4>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contatos</a></li>
+      
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row footer-bottom section-gap-top d-flex align-items-center">
+       
+       
+      </div>
+     
+    </div>
+  </footer>
+  <!-- End footer section -->
+  <!-- Start Scroll Top -->
+  <div class="scroll-top">
+    <i class="icofont-rounded-up"></i>
+  </div>
+  <!-- End Scroll Top -->
+  <script src="{% static 'assets/js/jquery-3.3.1.slim.min.js' %}"></script>
+  <script src="{% static 'assets/js/popper.min.js' %}"></script>
+  <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'assets/js/dopeNav.js' %}"></script>
+  <script src="{% static 'assets/js/odometer.js' %}"></script>
+  <script src="{% static 'assets/js/tilt.jquery.min.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+
+
+<!-- index.html  03:19:24 GMT -->
+</html>
